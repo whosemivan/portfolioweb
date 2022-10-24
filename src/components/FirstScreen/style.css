@@ -1,0 +1,348 @@
+.first-screen {
+    position: relative;
+    /* z-index: -3; */
+}
+
+.first-screen__wrapper {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-screen__title {
+    margin: 0;
+    color: #022702;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}
+
+.first-screen__text {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #022702;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.first-screen__code {
+    margin-bottom: 100px;
+    position: relative;
+    width: 226.24px;
+    border-right: 2px solid #2E6B75;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.first-screen__code--animate {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 226.24px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #2E6B75;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.first-screen__link {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #022702;
+    position: relative;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.first-screen__link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background: #022702;
+}
+
+.first-screen__decorate {
+    width: 100%;
+    position: relative;
+}
+
+.first-screen__decorate-orbit {
+    width: 54px;
+    height: 54px;
+    background-color: #b5eeff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.first-screen__decorate-cornea {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5073AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-screen__decorate-pupil {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #030100;
+}
+
+.first-screen__decorate-orbit:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    left: 60px;
+    top: 5px;
+}
+
+.first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-cornea {
+    width: 16px;
+    height: 16px;
+    background-color: #DF4E68;
+}
+
+.first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-pupil {
+    width: 8px;
+    height: 8px;
+}
+
+.first-screen__decorate-orbit:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    left: 50px;
+    top: 40px;
+}
+
+.first-screen__decorate-orbit:nth-child(3) .first-screen__decorate-cornea {
+    width: 22px;
+    height: 22px;
+    background-color: #144914;
+}
+
+.first-screen__decorate-orbit:nth-child(3) .first-screen__decorate-pupil {
+    width: 12px;
+    height: 12px;
+}
+
+.first-screen__decorate-orbit:last-child {
+    width: 48px;
+    height: 48px;
+    left: 91px;
+    top: 11px;
+}
+
+.first-screen__decorate-orbit:last-child .first-screen__decorate-cornea {
+    width: 26px;
+    height: 26px;
+    background-color: #4C2F29;
+}
+
+.first-screen__decorate-orbit:last-child .first-screen__decorate-pupil {
+    width: 14px;
+    height: 14px;
+}
+
+
+@media (min-width: 768px) {
+    .first-screen__wrapper {
+        width: 580px;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .first-screen__title {
+        font-size: 46px;
+        line-height: 59px;
+        color: #022702;
+
+    }
+
+    .first-screen__text {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .first-screen__code {
+        font-size: 16px;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 280.45px;
+        }
+    }
+
+    .first-screen__link {
+        font-size: 40px;
+        line-height: 51px;
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+
+    .first-screen__decorate {
+        position: absolute;
+        bottom: -5px;
+        width: 139px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .first-screen__wrapper {
+        width: 880px;
+    }
+
+    .first-screen__title {
+        font-size: 73px;
+        line-height: 93px;
+    }
+
+    .first-screen__text {
+        width: 680px;
+        letter-spacing: 0.01em;
+    }
+
+    .first-screen__code {
+        margin-bottom: 130px;
+    }
+
+    .first-screen__link {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .first-screen__link::after {
+        height: 3px;
+    }
+
+    /* decoarte element Eyes  */
+
+    .first-screen__decorate-orbit {
+        width: 88px;
+        height: 88px;
+    }
+
+    .first-screen__decorate-cornea {
+        width: 48px;
+        height: 48px;
+    }
+
+    .first-screen__decorate-pupil {
+        width: 26px;
+        height: 26px;
+    }
+
+    .first-screen__decorate-orbit:nth-child(2) {
+        width: 45px;
+        height: 45px;
+        top: 10px;
+        left: 95px;
+    }
+
+    .first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-cornea {
+        width: 25px;
+        height: 25px;
+        background-color: #DF4E68;
+    }
+
+    .first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-pupil {
+        width: 13px;
+        height: 13px;
+    }
+
+    .first-screen__decorate-orbit:nth-child(3) {
+        width: 65px;
+        height: 65px;
+        top: 69px;
+        left: 72px;
+    }
+
+    .first-screen__decorate-orbit:nth-child(3) .first-screen__decorate-cornea {
+        width: 35px;
+        height: 35px;
+    }
+
+    .first-screen__decorate-orbit:nth-child(3) .first-screen__decorate-pupil {
+        width: 19px;
+        height: 19px;
+    }
+
+    .first-screen__decorate-orbit:last-child {
+        width: 77px;
+        height: 77px;
+        top: 30px;
+        left: 138px;
+    }
+
+    .first-screen__decorate-orbit:last-child .first-screen__decorate-cornea {
+        width: 42px;
+        height: 42px;
+    }
+
+    .first-screen__decorate-orbit:last-child .first-screen__decorate-pupil {
+        width: 23px;
+        height: 23px;
+    }
+    .first-screen__decorate {
+        width: 215px;
+        height: 134px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .first-screen__wrapper {
+        width: 894px;
+    }
+
+    .first-screen__title {
+        font-size: 96px;
+        line-height: 123px;
+    }
+
+    .first-screen__text {
+        width: 894px;
+    }
+
+    .first-screen__link {
+        font-size: 70px;
+        line-height: 90px;
+    }
+}
