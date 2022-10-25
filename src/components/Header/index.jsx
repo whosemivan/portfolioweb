@@ -41,7 +41,7 @@ const Header = () => {
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" href="#" style={{
+                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="#" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "1.1s" : "0s"
                             }}>more about me</a>

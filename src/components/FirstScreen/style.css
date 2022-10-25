@@ -1,6 +1,6 @@
 .first-screen {
     position: relative;
-    /* z-index: -3; */
+    margin-bottom: 130px;
 }
 
 .first-screen__wrapper {
@@ -88,6 +88,7 @@
 
 .first-screen__decorate {
     width: 100%;
+    height: 80px;
     position: relative;
 }
 

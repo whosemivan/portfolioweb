@@ -5,6 +5,7 @@ body {
   background-color: #92C3BF;
   min-width: 320px;
   position: relative;
+  color: #022702;
 }
 
 body::after {
@@ -16,4 +17,18 @@ body::after {
   top: 0;
   background-color: #b5eeff;
   z-index: -1;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+@media (min-width: 1024px) {
+  body::after {
+    width: 45%;
+  }
 }
