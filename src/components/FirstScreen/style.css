@@ -250,7 +250,7 @@
     }
 
     .first-screen__link::after {
-        height: 3px;
+        height: 2px;
     }
 
     /* decoarte element Eyes  */
@@ -345,5 +345,10 @@
     .first-screen__link {
         font-size: 70px;
         line-height: 90px;
+    }
+
+    .first-screen__link::after {
+        height: 3px;
+        bottom: -6px;
     }
 }

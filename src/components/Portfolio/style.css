@@ -521,6 +521,11 @@
     .portfolio__item:last-child .portfolio__item-link {
         top: 141px;
     }
+
+    .portfolio__btn {
+        font-size: 30px;
+        line-height: 38px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -655,5 +660,105 @@
         left: 378px;
         width: 121px;
         height: 134px;
+    }
+
+    /* eye */
+    .portfolio__decorate {
+        width: 279px;
+        height: 164px;
+    }
+
+    .portfolio__decorate-orbit {
+        width: 110px;
+        height: 110px;
+    }
+
+    .portfolio__decorate-cornea {
+        width: 60px;
+        height: 60px;
+    }
+
+    .portfolio__decorate-pupil {
+        width: 30px;
+        height: 30px;
+    }
+
+    .portfolio__decorate-orbit:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        left: 117px;
+    }
+
+    .portfolio__decorate-orbit:nth-child(2) .portfolio__decorate-cornea {
+        width: 30px;
+        height: 30px;
+        background-color: #DF4E68;
+    }
+
+    .portfolio__decorate-orbit:nth-child(2) .portfolio__decorate-pupil {
+        width: 17px;
+        height: 17px;
+    }
+
+    .portfolio__decorate-orbit:nth-child(3) {
+        width: 85px;
+        height: 85px;
+        top: 79px;
+        left: 102px;
+    }
+
+    .portfolio__decorate-orbit:nth-child(3) .portfolio__decorate-cornea {
+        width: 47px;
+        height: 47px;
+    }
+
+    .portfolio__decorate-orbit:nth-child(3) .portfolio__decorate-pupil {
+        width: 25px;
+        height: 25px;
+    }
+
+    .portfolio__decorate-orbit:last-child {
+        width: 100px;
+        height: 100px;
+        top: 19px;
+        left: 180px;
+    }
+
+    .portfolio__decorate-orbit:last-child .portfolio__decorate-cornea {
+        width: 56px;
+        height: 56px;
+    }
+
+    .portfolio__decorate-orbit:last-child .portfolio__decorate-pupil {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* tubes */
+
+    .portfolio__item-icon--tube:first-child {
+        width: 105px;
+        height: 130px;
+        top: 208px;
+        left: 79px;
+    }
+
+    .portfolio__item-icon--tube:nth-child(2) {
+        width: 169px;
+        height: 97px;
+        left: 156px;
+    }
+
+    .portfolio__item-icon--tube:nth-child(3) {
+        width: 137px;
+        height: 118px;
+        top: 195px;
+        left: 308px;
+    }
+
+    .portfolio__item-icon--tube:last-child {
+        width: 91px;
+        height: 128px;
+        left: 488px;
     }
 }
