@@ -32,7 +32,6 @@
     cursor: pointer;
     width: 40px;
     height: 14px;
-    border-radius: 50%;
     transition: 0.3s ease;
     padding: 0;
     border: none;
@@ -45,11 +44,22 @@
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #022702;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
     left: 0;
     right: 0;
     transform: rotate(0deg);
     transition: all 0.4s;
+}
+
+.header__ham-box:hover .header__line-top,
+.header__ham-box:hover .header__line-bottom {
+    background-position: 0 100%;
+}
+
+.header__ham-box:active {
+    opacity: 0.7;
 }
 
 .header__line-top {
@@ -63,13 +73,17 @@
 .header__line-top.spin {
     top: 5px;
     transform: rotate(135deg);
-    background: #022702;
+    background: linear-gradient(to right, #93C3BF, #93C3BF 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
 }
 
 .header__line-bottom.spin {
     top: 5px;
     transform: rotate(225deg);
-    background: #022702;
+    background: linear-gradient(to right, #93C3BF, #93C3BF 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
 }
 
 .header__list {

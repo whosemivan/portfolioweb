@@ -1,5 +1,6 @@
 .first-screen {
     position: relative;
+    min-height: calc(100vh - 194px);
     margin-bottom: 130px;
 }
 
@@ -74,6 +75,22 @@
     position: relative;
     margin-bottom: 100px;
     cursor: pointer;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
+}
+
+.first-screen__link:hover,
+.first-screen__link:focus {
+    background-position: 0 100%;
+}
+
+.first-screen__link:active {
+    opacity: 0.7;
 }
 
 .first-screen__link::after {
@@ -83,7 +100,14 @@
     right: 0;
     bottom: -5px;
     height: 2px;
-    background: #022702;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
+}
+
+.first-screen__link:hover::after {
+    background-position: 0 100%;
 }
 
 .first-screen__decorate {
@@ -92,7 +116,7 @@
     position: relative;
 }
 
-.first-screen__decorate-orbit {
+/* .first-screen__decorate-orbit {
     width: 54px;
     height: 54px;
     background-color: #b5eeff;
@@ -103,9 +127,34 @@
     position: absolute;
     left: 0;
     top: 0;
+} */
+
+.first-screen__decorate-orbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    background-color: #b5eeff;
+    border-radius: 50%;
 }
 
 .first-screen__decorate-cornea {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #5073AD;
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
+    /* display: inline-block; */
+}
+
+/* .first-screen__decorate-cornea {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -113,13 +162,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .first-screen__decorate-pupil {
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #030100;
+    /* margin-left: 6px; */
+    /* margin-top: 6px; */
 }
 
 .first-screen__decorate-orbit:nth-child(2) {
@@ -256,36 +307,47 @@
     /* decoarte element Eyes  */
 
     .first-screen__decorate-orbit {
+        justify-content: unset;
+        align-items: unset;
         width: 88px;
         height: 88px;
     }
 
     .first-screen__decorate-cornea {
+        display: inline-block;
+        justify-content: unset;
+        align-items: unset;
         width: 48px;
         height: 48px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     .first-screen__decorate-pupil {
         width: 26px;
         height: 26px;
+        margin-left: 6px;
+        margin-top: 6px;
     }
 
     .first-screen__decorate-orbit:nth-child(2) {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
         top: 10px;
         left: 95px;
     }
 
     .first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-cornea {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         background-color: #DF4E68;
     }
 
     .first-screen__decorate-orbit:nth-child(2) .first-screen__decorate-pupil {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     .first-screen__decorate-orbit:nth-child(3) {
@@ -308,8 +370,8 @@
     .first-screen__decorate-orbit:last-child {
         width: 77px;
         height: 77px;
-        top: 30px;
-        left: 138px;
+        top: 42px;
+        left: 147px;
     }
 
     .first-screen__decorate-orbit:last-child .first-screen__decorate-cornea {
@@ -321,8 +383,9 @@
         width: 23px;
         height: 23px;
     }
+
     .first-screen__decorate {
-        width: 215px;
+        width: 225px;
         height: 134px;
     }
 
@@ -348,6 +411,11 @@
     }
 
     .first-screen__link::after {
+        height: 3px;
+        bottom: -6px;
+    }
+
+    .first-screen__link::before {
         height: 3px;
         bottom: -6px;
     }
