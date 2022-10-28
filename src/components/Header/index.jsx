@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -20,31 +21,31 @@ const Header = () => {
                 <nav className="header__nav">
                     <ul className="header__list">
                         <li className="header__list-item">
-                            <a className="header__list-link header__list-link--active" onClick={() => setNavOpen(!navOpen)} href="#" style={{
+                            <Link className="header__list-link header__list-link--active" onClick={() => setNavOpen(!navOpen)} to="/" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "0.8s" : "0s"
-                            }}>main</a>
+                            }}>main</Link>
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="#" style={{
+                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="/#portfolio" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "0.9s" : "0s"
                             }}>portfolio</a>
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="#" style={{
+                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="/#contact" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "1s" : "0s"
                             }}>contact me</a>
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="#" style={{
+                            <Link className="header__list-link" onClick={() => setNavOpen(!navOpen)} to="/about" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "1.1s" : "0s"
-                            }}>more about me</a>
+                            }}>more about me</Link>
                             <div className="header__item-wrapper"></div>
                         </li>
                     </ul>

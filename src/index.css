@@ -27,7 +27,67 @@ body::after {
   margin: -1px;
 }
 
+.code {
+  margin-bottom: 100px;
+  position: relative;
+  width: 226.24px;
+  border-right: 2px solid #2E6B75;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.code--animate {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 226.24px;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #2E6B75;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@media (min-width: 768px) {
+  .code {
+    font-size: 16px;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 280.45px;
+    }
+  }
+}
+
 @media (min-width: 1024px) {
+  body::after {
+    width: 46%;
+  }
+
+  .code {
+    margin-bottom: 130px;
+  }
+}
+
+@media (min-width: 1440px) {
   body::after {
     width: 45%;
   }

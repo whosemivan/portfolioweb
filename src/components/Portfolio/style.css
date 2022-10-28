@@ -607,6 +607,11 @@
         bottom: 70px;
     }
 
+    .portfolio__item:first-child .portfolio__item-tools,
+    .portfolio__item:nth-child(2) .portfolio__item-tools {
+        bottom: 0;
+    }
+
 }
 
 @media (min-width: 1440px) {
@@ -660,6 +665,12 @@
         left: 378px;
         width: 121px;
         height: 134px;
+    }
+
+
+    .portfolio__item:first-child .portfolio__item-tools,
+    .portfolio__item:nth-child(2) .portfolio__item-tools {
+        bottom: 70px;
     }
 
     /* eye */

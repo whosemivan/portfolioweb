@@ -32,39 +32,6 @@
     line-height: 26px;
 }
 
-.first-screen__code {
-    margin-bottom: 100px;
-    position: relative;
-    width: 226.24px;
-    border-right: 2px solid #2E6B75;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.first-screen__code--animate {
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 226.24px;
-    }
-}
-
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: #2E6B75;
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-}
 
 .first-screen__link {
     text-decoration: none;
@@ -116,19 +83,6 @@
     position: relative;
 }
 
-/* .first-screen__decorate-orbit {
-    width: 54px;
-    height: 54px;
-    background-color: #b5eeff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
-
 .first-screen__decorate-orbit {
     display: flex;
     justify-content: center;
@@ -149,28 +103,13 @@
     width: 30px;
     height: 30px;
     background-color: #5073AD;
-    /* margin-left: 10px; */
-    /* margin-top: 10px; */
-    /* display: inline-block; */
 }
-
-/* .first-screen__decorate-cornea {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #5073AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .first-screen__decorate-pupil {
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #030100;
-    /* margin-left: 6px; */
-    /* margin-top: 6px; */
 }
 
 .first-screen__decorate-orbit:nth-child(2) {
@@ -247,20 +186,6 @@
         font-size: 18px;
     }
 
-    .first-screen__code {
-        font-size: 16px;
-    }
-
-    @keyframes typewriter {
-        from {
-            width: 0;
-        }
-
-        to {
-            width: 280.45px;
-        }
-    }
-
     .first-screen__link {
         font-size: 40px;
         line-height: 51px;
@@ -289,10 +214,6 @@
     .first-screen__text {
         width: 680px;
         letter-spacing: 0.01em;
-    }
-
-    .first-screen__code {
-        margin-bottom: 130px;
     }
 
     .first-screen__link {

@@ -1,0 +1,129 @@
+.about {
+    width: 100%;
+    min-height: calc(100vh - 194px);
+    margin-bottom: 100px;
+}
+
+.about__wrapper {
+    width: 280px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.about__wrapper::after {
+    content: "";
+    width: 191px;
+    height: 43px;
+    background-image: url("../../../public/img/i<3frontendandcats.svg");
+    position: absolute;
+    bottom: -57px;
+    right: 0;
+}
+
+.about__code {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .about__wrapper {
+        width: 580px;
+    }
+
+    .about__title {
+        font-size: 46px;
+        line-height: 59px;
+    }
+
+    .about__wrapper::after {
+        right: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        margin-bottom: 0;
+    }
+
+    .about__wrapper {
+        width: 880px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .about__title {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .about__block {
+        align-items: flex-start;
+        width: 480px;
+    }
+
+    .about__text {
+        text-align: left;
+    }
+
+    .about__wrapper::after {
+        right: 0;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .about {
+        min-height: 560px;
+        margin-bottom: 100px;
+    }
+    
+    .about__wrapper {
+        width: 1352px;
+    }
+
+    .about__title {
+        font-size: 100px;
+        line-height: 128px;
+        margin-bottom: 15px;
+    }
+
+    .about__block {
+        width: 734px;
+    }
+
+    .about__wrapper::after {
+        background-image: url("../../../public/img/i<3frontend-desk.svg");
+        width: 440px;
+        height: 72px;
+        bottom: -105px;
+    }
+}

@@ -55,23 +55,24 @@
     .contact-me {
         width: 580px;
         align-items: flex-end;
+        min-height: 138px;
     }
 
     .contact-me__title {
-        font-size: 46px;
+        font-size: 43px;
         line-height: 59px;
     }
 
     .contact-me__link {
-        font-size: 46px;
+        font-size: 43px;
         line-height: 59px;
         text-align: right;
-        width: 475px;
+        width: 445px;
     }
 
     .contact-me::after {
-        left: 0;
-        bottom: 113px;
+        left: 10px;
+        bottom: -15px;
         transform: none;
     }
 
@@ -79,7 +80,7 @@
 
 @media (min-width: 1024px) {
     .contact-me {
-        width: 630px;
+        width: 661px;
     }
 
     .contact-me__title,
@@ -90,6 +91,11 @@
 
     .contact-me__link {
         width: 516px;
+    }
+
+    .contact-me::after {
+        left: 15px;
+        bottom: -14px;
     }
 }
 
@@ -119,6 +125,6 @@
         width: 157px;
         height: 137px;
         left: 0;
-        bottom: 0;
+        bottom: -11px;
     }
 }
