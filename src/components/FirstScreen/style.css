@@ -1,7 +1,8 @@
 .first-screen {
     position: relative;
     min-height: calc(100vh - 194px);
-    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
 }
 
 .first-screen__wrapper {
@@ -168,6 +169,10 @@
 
 
 @media (min-width: 768px) {
+    .first-screen {
+        align-items: flex-start;
+    }
+    
     .first-screen__wrapper {
         width: 580px;
         align-items: flex-start;
