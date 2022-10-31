@@ -7,6 +7,10 @@
     margin-bottom: 100px;
 }
 
+.education__block {
+    width: 100%;
+}
+
 .education__title,
 .education__certificates-title {
     margin: 0;
@@ -97,4 +101,101 @@
     bottom: -5px;
     height: 2px;
     background-color: #022702;
+}
+
+@media (min-width: 768px) {
+    .education {
+        width: 580px;
+    }
+
+    .education__container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 130px;
+    }
+
+    .education__title {
+        font-size: 40px;
+        line-height: 51px;
+    }
+
+    .education__wrapper-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .education__link-icon {
+        top: 17px;
+    }
+
+    .education__certificates-title {
+        font-size: 40px;
+        line-height: 51px;
+    }
+
+    .education__certificates {
+        width: 580px;
+    }
+
+    .education__certificates-link {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .education {
+        width: 880px;
+        align-items: flex-start;
+    }
+
+    .education__wrapper {
+        align-items: flex-start;
+        width: 380px;
+    }
+
+    .education__certificates {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .education__certificates-link {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .education {
+        width: 1352px;
+        align-items: flex-start;
+    }
+
+    .education__container {
+        flex-direction: column;
+        width: 553px;
+    }
+
+    .education__certificates {
+        width: 553px;
+    }
+
+    .education__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .education__certificates-title {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .education__wrapper {
+        margin-bottom: 100px;
+    }
+
+    .education__wrapper:last-child {
+        margin-bottom: 0;
+    }
 }

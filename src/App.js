@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import NotFound from "./components/NotFound";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import AllCerts from "./components/AllCerts";
 
 import { Switch, Route, Router as BrowserRouter } from 'react-router-dom';
 import browserHistory from "./browser-history";
@@ -30,6 +31,12 @@ const App = () => {
           <Skills/>
           <Experience/>
           <Education/>
+          <ContactMe />
+          <Footer />
+        </Route>
+        <Route exact path='/all-certificates'>
+        <Header />
+          <AllCerts/>
           <ContactMe />
           <Footer />
         </Route>

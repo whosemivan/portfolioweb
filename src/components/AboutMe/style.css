@@ -71,6 +71,7 @@
 @media (min-width: 1024px) {
     .about {
         margin-bottom: 0;
+        min-height: calc(100vh - 350px);
     }
 
     .about__wrapper {

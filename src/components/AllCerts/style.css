@@ -1,0 +1,51 @@
+.all-certs {
+    margin-bottom: 100px;
+}
+
+.all-certs__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #022702;
+}
+
+.all-certs__wrapper {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .all-certs__title {
+        font-size: 46px;
+        line-height: 59px;
+    }
+
+    .all-certs__wrapper {
+        width: 580px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .all-certs {
+        margin-bottom: 130px;
+    }
+
+    .all-certs__wrapper {
+        width: 894px;
+    }
+
+    .all-certs__wrapper img {
+        width: 437px;
+    }
+}
