@@ -27,22 +27,23 @@ const App = () => {
         </Route>
         <Route exact path='/about'>
           <Header />
-          <AboutMe/>
-          <Skills/>
-          <Experience/>
-          <Education/>
+          <AboutMe />
+          <Skills />
+          <Experience />
+          <Education />
           <ContactMe />
           <Footer />
         </Route>
         <Route exact path='/all-certificates'>
-        <Header />
-          <AllCerts/>
+          <Header />
+          <AllCerts />
           <ContactMe />
           <Footer />
         </Route>
         <Route>
-            <NotFound />
-          </Route>
+          <Header />
+          <NotFound />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

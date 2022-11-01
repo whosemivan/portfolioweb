@@ -1,0 +1,72 @@
+.not-found {
+    height: calc(100vh - 194px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    position: relative;
+}
+
+.not-found::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../../public/img/alien-sad.svg");
+    width: 72px;
+    height: 95px;
+    left: -80px;
+    top: 0;
+    animation: alienErrorAnimation 1s forwards;
+}
+
+@keyframes alienErrorAnimation {
+    from {
+        left: -80px;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.not-found__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #022702;
+    margin-bottom: 40px;
+}
+
+.not-found__link {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #022702;
+}
+
+@media (min-width: 768px) {
+    .not-found::after {
+        background-image: url("../../../public/img/alien-sad-desk.svg");
+        width: 174px;
+        height: 158px;
+    }
+
+    @keyframes alienErrorAnimation {
+        from {
+            left: -180px;
+        }
+
+        to {
+            left: -55px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .not-found__title {
+        font-size: 80px;
+    }
+}
