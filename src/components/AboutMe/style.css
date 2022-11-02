@@ -1,6 +1,7 @@
 .about {
     width: 100%;
-    min-height: calc(100vh - 194px);
+    padding-top: 130px;
+    min-height: calc(100vh - 130px);
     margin-bottom: 100px;
 }
 
@@ -70,8 +71,10 @@
 
 @media (min-width: 1024px) {
     .about {
-        margin-bottom: 0;
+        margin-bottom: 100px;
         min-height: calc(100vh - 350px);
+        display: flex;
+        align-items: center;
     }
 
     .about__wrapper {

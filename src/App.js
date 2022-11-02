@@ -19,14 +19,14 @@ const App = () => {
     <BrowserRouter history={browserHistory}>
       <Switch>
         <Route exact path='/'>
-          <Header />
+          <Header active="main" />
           <FirstScreen />
           <Portfolio />
           <ContactMe />
           <Footer />
         </Route>
         <Route exact path='/about'>
-          <Header />
+          <Header active="about" />
           <AboutMe />
           <Skills />
           <Experience />

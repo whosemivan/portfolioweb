@@ -180,12 +180,14 @@
     position: absolute;
     top: 24px;
     left: 75px;
+    animation: portfolioAnimation linear 5s infinite;
 }
 
 .portfolio__item-icon--heart:last-child {
     top: 70px;
     left: 140px;
 }
+
 
 .portfolio__item-link {
     font-size: 20px;
@@ -194,6 +196,17 @@
     color: #022702;
     text-decoration: none;
     position: relative;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.portfolio__item-link:hover,
+.portfolio__item-link:focus {
+    opacity: 0.7;
+}
+
+.portfolio__item-link:active {
+    opacity: 0.5;
 }
 
 .portfolio__item-link::after {
@@ -211,6 +224,7 @@
     width: 139px;
     height: 80px;
     position: relative;
+    animation: portfolioAnimation linear 5s infinite;
 }
 
 .portfolio__decorate-orbit {
@@ -299,6 +313,7 @@
 
 .portfolio__item-icon--tube {
     position: absolute;
+    animation: portfolioAnimation linear 5s infinite;
 }
 
 .portfolio__item-icon--tube:first-child {
@@ -333,6 +348,14 @@
     color: #022702;
     font-family: 'Lora';
     position: relative;
+    cursor: pointer;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
 }
 
 .portfolio__btn::after {
@@ -342,7 +365,37 @@
     left: 0;
     right: 0;
     bottom: -3px;
-    background-color: #022702;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
+}
+
+.portfolio__btn:hover,
+.portfolio__btn:focus {
+    background-position: 0 100%;
+}
+
+.portfolio__btn:active {
+    opacity: 0.5;
+}
+
+.portfolio__btn:hover::after {
+    background-position: 0 100%;
+}
+
+@keyframes portfolioAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media (min-width: 768px) {
@@ -526,6 +579,20 @@
         font-size: 30px;
         line-height: 38px;
     }
+
+    @keyframes portfolioAnimation {
+        0% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(30px);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -610,6 +677,20 @@
     .portfolio__item:first-child .portfolio__item-tools,
     .portfolio__item:nth-child(2) .portfolio__item-tools {
         bottom: 0;
+    }
+
+    @keyframes portfolioAnimation {
+        0% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(10px);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
     }
 
 }

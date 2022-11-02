@@ -34,7 +34,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className="education__certificates">
-                    <h2 className="education__certificates-title">10 certificates</h2>
+                    <h2 className="education__certificates-title">certificates</h2>
                     <div className="education__certificates-wrapper">
                         <picture>
                             <source srcSet="img/cert.jpg" media="(max-width: 767px)" />

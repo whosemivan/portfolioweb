@@ -3,6 +3,7 @@
     margin-bottom: 130px;
     position: relative;
     z-index: 1;
+    position: fixed;
 }
 
 .header__navbar {
@@ -25,6 +26,30 @@
     height: 100vh;
     overflow: hidden;
     transition: all 2s cubic-bezier(0.16, 1, 0.2, 1);
+}
+
+
+.header__overlay--animation::after {
+    content: "";
+    background-image: url("../../../public/img/ufo-mobile.svg");
+    width: 94px;
+    height: 72px;
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    animation: ufoMenuAnimation 5s forwards;
+}
+
+@keyframes ufoMenuAnimation {
+    from {
+        right: -100px;
+        bottom: 0;
+    }
+
+    to {
+        right: 768px;
+        bottom: 1000px;
+    }
 }
 
 .header__ham-box {
@@ -119,11 +144,11 @@
     transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+
 .header__list-link--active {
     color: #93C3BF;
     position: relative;
 }
-
 
 .header__item-wrapper::after {
     content: "";
@@ -159,10 +184,34 @@
     .header__list-link {
         font-size: 50px;
     }
+
+    @keyframes ufoMenuAnimation {
+        from {
+            right: -100px;
+            bottom: 0;
+        }
+    
+        to {
+            right: 1250px;
+            bottom: 1000px;
+        }
+    }
 }
 
 @media (min-width: 1440px) {
     .header__navbar {
         width: 1352px;
+    }
+
+    @keyframes ufoMenuAnimation {
+        from {
+            right: -100px;
+            bottom: 0;
+        }
+    
+        to {
+            right: 1500px;
+            bottom: 1000px;
+        }
     }
 }

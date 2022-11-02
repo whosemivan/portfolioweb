@@ -43,6 +43,16 @@
     color: #022702;
     text-decoration: none;
     position: relative;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.education__link:hover {
+    opacity: 0.7;
+}
+
+.education__link:active{
+    opacity: 0.5;
 }
 
 .education__link-icon {
@@ -91,6 +101,22 @@
     color: #022702;
     text-decoration: none;
     position: relative;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
+}
+
+.education__certificates-link:hover,
+.education__certificates-link:focus {
+    background-position: 0 100%;
+}
+
+.education__certificates-link:active {
+    opacity: 0.5;
 }
 
 .education__certificates-link::after {
@@ -101,7 +127,16 @@
     bottom: -5px;
     height: 2px;
     background-color: #022702;
+    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
 }
+
+.education__certificates-link:hover::after {
+    background-position: 0 100%;
+}
+
 
 @media (min-width: 768px) {
     .education {

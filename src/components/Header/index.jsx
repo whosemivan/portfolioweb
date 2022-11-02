@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({active}) => {
     const [navOpen, setNavOpen] = useState(false);
 
     return (
@@ -14,14 +14,14 @@ const Header = () => {
                 </button>
             </div>
 
-            <div className="header__overlay" style={{
+            <div className={navOpen ? "header__overlay header__overlay--animation" : "header__overlay"} style={{
                 top: navOpen ? "0" : "-100vh",
                 transitionDelay: navOpen ? "0s" : "0s"
             }}>
                 <nav className="header__nav">
                     <ul className="header__list">
                         <li className="header__list-item">
-                            <Link className="header__list-link header__list-link--active" onClick={() => setNavOpen(!navOpen)} to="/" style={{
+                            <Link className={active === "main" ? "header__list-link header__list-link--active" : "header__list-link"} onClick={() => setNavOpen(!navOpen)} to="/" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "0.8s" : "0s"
                             }}>main</Link>
@@ -42,7 +42,7 @@ const Header = () => {
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <Link className="header__list-link" onClick={() => setNavOpen(!navOpen)} to="/about" style={{
+                            <Link className={active === "about" ? "header__list-link header__list-link--active" : "header__list-link"} onClick={() => setNavOpen(!navOpen)} to="/about" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "1.1s" : "0s"
                             }}>more about me</Link>

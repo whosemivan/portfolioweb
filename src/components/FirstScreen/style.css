@@ -1,8 +1,31 @@
 .first-screen {
     position: relative;
-    min-height: calc(100vh - 194px);
+    padding-top: 130px;
+    min-height: calc(100vh - 130px);
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
+}
+
+.first-screen::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../../public/img/alien-mobile.svg");
+    width: 72px;
+    height: 109px;
+    left: -80px;
+    top: -170px;
+    animation: alienAnimation 1s forwards;
+}
+
+@keyframes alienAnimation {
+    from {
+        left: -80px;
+    }
+
+    to {
+        left: 0;
+    }
 }
 
 .first-screen__wrapper {
@@ -58,7 +81,7 @@
 }
 
 .first-screen__link:active {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .first-screen__link::after {
@@ -170,7 +193,7 @@
 
 @media (min-width: 768px) {
     .first-screen {
-        align-items: flex-start;
+        align-items: center;
     }
     
     .first-screen__wrapper {
@@ -204,6 +227,25 @@
         width: 139px;
         height: 80px;
     }
+
+    .first-screen::after {
+        background-image: url("../../../public/img/alien-tablet.svg");
+        width: 109px;
+        height: 152px;
+        left: -120px;
+        top: -170px;
+    }
+    
+    @keyframes alienAnimation {
+        from {
+            left: -120px;
+        }
+    
+        to {
+            left: 0;
+        }
+    }
+    
 }
 
 @media (min-width: 1024px) {
