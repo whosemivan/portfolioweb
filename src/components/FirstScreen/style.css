@@ -14,7 +14,7 @@
     width: 72px;
     height: 109px;
     left: -80px;
-    top: -170px;
+    top: 10px;
     animation: alienAnimation 1s forwards;
 }
 
@@ -233,7 +233,7 @@
         width: 109px;
         height: 152px;
         left: -120px;
-        top: -170px;
+        top: 10px;
     }
     
     @keyframes alienAnimation {

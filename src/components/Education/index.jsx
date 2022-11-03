@@ -21,7 +21,7 @@ const Education = () => {
                         <span className="education__date">sep 2020 - jun 2024</span>
                     </div>
                     <div className="education__wrapper">
-                        <h3 class="education__wrapper-title">
+                        <h3 className="education__wrapper-title">
                             <a className="education__link" href="https://htmlacademy.ru/">
                                 html academy
                                 <svg className="education__link-icon" width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">

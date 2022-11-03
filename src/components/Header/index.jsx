@@ -35,7 +35,7 @@ const Header = ({active}) => {
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="/#contact" style={{
+                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="#contact" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "1s" : "0s"
                             }}>contact me</a>
