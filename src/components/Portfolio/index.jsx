@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./style.css";
 
-const Portfolio = () => {
+const Portfolio = ({isPage}) => {
     const [isMore, setIsMore] = useState(false);
 
     return (
-        <section id="portfolio" className="portfolio">
-            <h2 className="portfolio__title">portfolio</h2>
+        <section id="portfolio" className={isPage ? "portfolio portfolio--page" : "portfolio"}>
+            <h2 className={isPage ? "portfolio__title portfolio__title--page" : "portfolio__title"}>portfolio</h2>
             <div className="portfolio__wrapper">
                 <div className="portfolio__item">
                     <div className="portfolio__description-wrapper">
@@ -209,7 +209,7 @@ const Portfolio = () => {
                                             <source srcSet="img/cat-energy-mobile2.jpg" media="(max-width: 1023px)" />
                                             <source srcSet="img/cat-energy-tablet.jpg" media="(max-width: 1439px)" />
                                             <source srcSet="img/cat-energy-desktop.jpg" media="(min-width: 1439px)" />
-                                            <img src="img/cat-energy-mobile.jpg" alt="cat energy image" />
+                                            <img src="img/cat-energy-mobile.jpg" alt="cat energy" />
                                         </picture>
                                     </div>
                                     <a className="portfolio__item-link" href="https://whosemivan.github.io/cat-energy/">link</a>
@@ -243,7 +243,7 @@ const Portfolio = () => {
                                             <source srcSet="img/technomart-mobile2.jpg" media="(max-width: 1023px)" />
                                             <source srcSet="img/technomart-tablet.jpg" media="(max-width: 1439px)" />
                                             <source srcSet="img/technomart-desktop.jpg" media="(min-width: 1439px)" />
-                                            <img src="img/technomart-mobile.jpg" alt="technomart image" />
+                                            <img src="img/technomart-mobile.jpg" alt="technomart" />
                                         </picture>
                                     </div>
                                     <a className="portfolio__item-link" href="https://whosemivan.github.io/technomart/">link</a>
@@ -277,7 +277,7 @@ const Portfolio = () => {
                                             <source srcSet="img/keksobooking-mobile2.jpg" media="(max-width: 1023px)" />
                                             <source srcSet="img/keksobooking-tablet.jpg" media="(max-width: 1439px)" />
                                             <source srcSet="img/keksobooking-desktop.jpg" media="(min-width: 1439px)" />
-                                            <img src="img/keksobooking-mobile.jpg" alt="keksobooking image" />
+                                            <img src="img/keksobooking-mobile.jpg" alt="keksobooking" />
                                         </picture>
                                     </div>
                                     <a className="portfolio__item-link" href="https://github.com/whosemivan/keksobooking">link</a>
@@ -311,7 +311,7 @@ const Portfolio = () => {
                                             <source srcSet="img/cinema-mobile2.jpg" media="(max-width: 1023px)" />
                                             <source srcSet="img/cinema-tablet.jpg" media="(max-width: 1439px)" />
                                             <source srcSet="img/cinema-desktop.jpg" media="(min-width: 1439px)" />
-                                            <img src="img/cinema-mobile.jpg" alt="wtw project image" />
+                                            <img src="img/cinema-mobile.jpg" alt="wtw project" />
                                         </picture>
                                     </div>
                                     <a className="portfolio__item-link" href="https://github.com/whosemivan/1087549-what-to-watch-6">link</a>

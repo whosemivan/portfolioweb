@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Header from "./components/Header";
 import FirstScreen from "./components/FirstScreen";
 import Portfolio from "./components/Portfolio";
@@ -41,6 +41,13 @@ const App = () => {
           <ScrollToTop />
           <Header />
           <AllCerts />
+          <ContactMe />
+          <Footer />
+        </Route>
+        <Route exact path='/portfolio'>
+          <ScrollToTop />
+          <Header active="portfolio" />
+          <Portfolio isPage={true}/>
           <ContactMe />
           <Footer />
         </Route>

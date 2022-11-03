@@ -3,6 +3,10 @@
     margin-bottom: 130px;
 }
 
+.portfolio--page {
+    padding-top: 130px;
+}
+
 .portfolio__wrapper {
     width: 280px;
     margin: 0 auto;
@@ -16,6 +20,10 @@
     text-align: center;
     letter-spacing: 0.02em;
     font-weight: 400;
+}
+
+.portfolio__title--page {
+    font-size: 30px;
 }
 
 .portfolio__item {
@@ -409,6 +417,10 @@
         margin-bottom: 100px;
     }
 
+    .portfolio__title--page {
+        font-size: 46px;
+    }
+
     .portfolio__item-title {
         font-size: 30px;
         line-height: 38px;
@@ -605,6 +617,10 @@
         line-height: 64px;
     }
 
+    .portfolio__title--page {
+        font-size: 50px;
+    }
+
     .portfolio__item {
         display: flex;
         flex-direction: row-reverse;
@@ -703,6 +719,10 @@
     .portfolio__title {
         font-size: 60px;
         line-height: 77px;
+    }
+
+    .portfolio__title--page {
+        font-size: 100px;
     }
 
     .portfolio__item-picture {

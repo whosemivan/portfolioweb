@@ -22,7 +22,7 @@ const Experience = () => {
                 </div>
                 <div className="experience__item">
                     <h3 className="experience__item-title">web developer</h3>
-                    <a className="experience__link">freelance</a>
+                    <a className="experience__link" href="#">freelance</a>
                     <span className="experience__date">may 2021 - present</span>
                     <p className="experience__text">
                         i worked as a freelancer. successfully completed several orders, i create a web design and frontend.

@@ -28,10 +28,10 @@ const Header = ({active}) => {
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link" onClick={() => setNavOpen(!navOpen)} href="/#portfolio" style={{
+                            <Link className={active === "portfolio" ? "header__list-link header__list-link--active" : "header__list-link"} onClick={() => setNavOpen(!navOpen)} to="/portfolio" style={{
                                 top: navOpen ? "0" : "120px",
                                 transitionDelay: navOpen ? "0.9s" : "0s"
-                            }}>portfolio</a>
+                            }}>portfolio</Link>
                             <div className="header__item-wrapper"></div>
                         </li>
                         <li className="header__list-item">
