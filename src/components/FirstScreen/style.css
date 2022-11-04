@@ -44,6 +44,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .first-screen__text {
@@ -75,12 +76,12 @@
     transition: background-position 0.4s ease;
 }
 
-.first-screen__link:hover,
-.first-screen__link:focus {
+.first-screen__link:hover {
     background-position: 0 100%;
 }
 
-.first-screen__link:active {
+.first-screen__link:active,
+.first-screen__link:focus {
     opacity: 0.5;
 }
 
@@ -195,7 +196,7 @@
     .first-screen {
         align-items: center;
     }
-    
+
     .first-screen__wrapper {
         width: 580px;
         align-items: flex-start;
@@ -235,17 +236,17 @@
         left: -120px;
         top: 10px;
     }
-    
+
     @keyframes alienAnimation {
         from {
             left: -120px;
         }
-    
+
         to {
             left: 0;
         }
     }
-    
+
 }
 
 @media (min-width: 1024px) {

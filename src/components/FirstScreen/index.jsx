@@ -23,7 +23,7 @@ const FirstScreen = () => {
                 <h1 className="first-screen__title">frontend developer</h1>
                 <p className="first-screen__text">hi, i’m alienba6y, a frontend developer based in moscow. create frontend since 2020. really like react!</p>
                 <code className="code code--animate">{"// import React from 'react';"}</code>
-                <a className="first-screen__link" href="#portfolio">my projects</a>
+                <a className="first-screen__link" href="/portfolio">my projects</a>
                 <div className="first-screen__decorate">
                     <div className="first-screen__decorate-orbit eye-left">
                         <div className="first-screen__decorate-cornea">
