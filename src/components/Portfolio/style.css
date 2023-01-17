@@ -168,19 +168,24 @@
 .portfolio__item-picture {
     width: 280px;
     height: 150px;
-    background-color: #fff6ef;
+    background-color: #54aece;
     position: relative;
     margin-bottom: 20px;
 }
 
 .portfolio__item:nth-child(2) .portfolio__item-picture {
+    background-color: #fff6ef;
+    position: relative;
+}
+
+.portfolio__item:nth-child(3) .portfolio__item-picture {
     background-color: #4D34C1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio__item:nth-child(3) .portfolio__item-picture {
+.portfolio__item:nth-child(4) .portfolio__item-picture {
     background-color: #57B7EB;
 }
 
@@ -406,6 +411,23 @@
     }
 }
 
+.portfolio__item-icon--calendar {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+.portfolio__item-icon--storm {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(22deg);
+}
+
 @media (min-width: 768px) {
     .portfolio__wrapper {
         width: 580px;
@@ -427,7 +449,7 @@
     }
 
     .portfolio__item-description {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .portfolio__item-picture {
@@ -455,7 +477,7 @@
         line-height: 38px;
         position: absolute;
         right: 21px;
-        top: 293px;
+        top: 353px;
     }
 
     .portfolio__item-link::after {
@@ -539,7 +561,11 @@
     }
 
     .portfolio__item:nth-child(2) .portfolio__item-link {
-        top: 227px;
+        top: 317px;
+    }
+
+    .portfolio__item:nth-child(3) .portfolio__item-link {
+        top: 250px;
     }
 
     .portfolio__item-icon--tube:first-child {
@@ -570,16 +596,16 @@
         left: 380px;
     }
 
-    .portfolio__item:nth-child(3) .portfolio__item-link,
-    .portfolio__item:nth-child(4) .portfolio__item-link {
+    .portfolio__item:nth-child(4) .portfolio__item-link,
+    .portfolio__item:nth-child(5) .portfolio__item-link {
         top: 164px;
     }
 
-    .portfolio__item:nth-child(5) .portfolio__item-link {
+    .portfolio__item:nth-child(6) .portfolio__item-link {
         top: 141px;
     }
 
-    .portfolio__item:nth-child(6) .portfolio__item-link {
+    .portfolio__item:nth-child(7) .portfolio__item-link {
         top: 187px;
     }
 
@@ -590,6 +616,13 @@
     .portfolio__btn {
         font-size: 30px;
         line-height: 38px;
+    }
+
+    .portfolio__item-icon--calendar {
+        width: 115px;
+    }
+    .portfolio__item-icon--storm {
+        width: 60px;
     }
 
     @keyframes portfolioAnimation {
@@ -671,13 +704,10 @@
     .portfolio__item:nth-child(4) .portfolio__item-link,
     .portfolio__item:nth-child(5) .portfolio__item-link,
     .portfolio__item:nth-child(6) .portfolio__item-link,
+    .portfolio__item:nth-child(7) .portfolio__item-link,
     .portfolio__item:last-child .portfolio__item-link {
         top: 0;
         left: 0;
-    }
-
-    .portfolio__item-description {
-        flex-direction: column;
     }
 
     .portfolio__image-wrapper {
@@ -690,9 +720,22 @@
         bottom: 70px;
     }
 
-    .portfolio__item:first-child .portfolio__item-tools,
-    .portfolio__item:nth-child(2) .portfolio__item-tools {
-        bottom: 0;
+    .portfolio__item:first-child .portfolio__item-tools {
+        bottom: -40px;
+    }
+
+    .portfolio__item:nth-child(2) .portfolio__item-tools,
+    .portfolio__item:nth-child(3) .portfolio__item-tools {
+        bottom: -20px;
+    }
+
+    .portfolio__item-icon--calendar {
+        width: 100px;
+        left: 34%;
+    }
+    .portfolio__item-icon--storm {
+        width: 45px;
+        left: 66%;
     }
 
     @keyframes portfolioAnimation {
@@ -872,5 +915,21 @@
         width: 91px;
         height: 128px;
         left: 488px;
+    }
+
+    .portfolio__item-icon--calendar {
+        width: 140px;
+        left: 36%;
+        top: 38%;
+    }
+
+    .portfolio__item-icon--storm {
+        width: 75px;
+        left: 64%;
+        top: 62%;
+    }
+
+    .portfolio__item:nth-child(3) .portfolio__item-tools {
+        bottom: 70px;
     }
 }
