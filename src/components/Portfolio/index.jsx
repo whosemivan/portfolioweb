@@ -40,7 +40,7 @@ const Portfolio = ({ isPage }) => {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M143.319 0C141.11 0 139.319 1.79086 139.319 4V46.2102H139.693C141.86 42.5144 145.109 39.0098 149.442 35.6963C153.775 32.2554 159.701 30.535 167.221 30.535C174.867 30.535 180.984 32.3191 185.572 35.8875C190.287 39.4558 193.728 43.8526 195.895 49.0776H196.277C197.934 46.1465 200.1 43.2791 202.777 40.4754C205.58 37.5442 209.021 35.1866 213.099 33.4024C217.305 31.4908 222.211 30.535 227.819 30.535C234.828 30.535 240.627 32.128 245.215 35.314C249.802 38.5 253.18 42.7056 255.346 47.9307C257.64 53.0283 258.787 58.5083 258.787 64.3706V118.415C275.288 106.558 286.035 87.1975 286.035 65.3273C286.035 29.248 256.787 0 220.708 0C220.632 0 220.557 0.000127385 220.482 0.000381951C220.463 0.000127592 220.445 0 220.426 0H143.319ZM229.73 130.037V71.6347C229.73 66.6645 228.456 62.5864 225.907 59.4004C223.486 56.0869 219.79 54.4302 214.82 54.4302C210.997 54.4302 207.874 55.386 205.453 57.2976C203.159 59.2092 201.438 61.6943 200.291 64.7529C199.272 67.6841 198.762 70.7426 198.762 73.9287V130.654H220.426L220.463 130.654C220.545 130.655 220.626 130.655 220.708 130.655C223.769 130.655 226.781 130.444 229.73 130.037ZM169.706 130.654V71.6347C169.706 66.6645 168.431 62.5864 165.882 59.4004C163.461 56.0869 159.765 54.4302 154.795 54.4302C150.972 54.4302 147.849 55.386 145.428 57.2976C143.134 59.2092 141.414 61.6943 140.267 64.7529C139.876 65.8759 139.56 67.0176 139.319 68.1781V126.654C139.319 128.864 141.11 130.654 143.319 130.654H169.706Z" fill="#00D588" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://demuzo.com/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://demuzo.com/">link</a>
                     </div>
                 </div>
                 <div className="portfolio__item">
@@ -180,7 +180,7 @@ const Portfolio = ({ isPage }) => {
                                 </defs>
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://modernbanc.com/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://modernbanc.com/">link</a>
                     </div>
                 </div>
                 <div className="portfolio__item">
@@ -209,7 +209,7 @@ const Portfolio = ({ isPage }) => {
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M50.7866 63.6803L0 24.1177V1.51003C0 0.25286 1.44847 -0.451796 2.43757 0.324195L50.7939 38.2618L98.5557 0.3519C99.5435 -0.432139 101 0.271315 101 1.53245V24.5756L50.8566 63.6372L50.8493 63.6315L50.7866 63.6803ZM1.93659 66.9004C0.714566 65.9484 0 64.486 0 62.9369V39.9676L50.7935 79.5356L101 40.4248V63.3942C101 64.9433 100.285 66.4057 99.0634 67.3576L55.7875 101.07C81.1136 103.714 100.856 125.129 100.856 151.155C100.856 178.969 78.3091 201.516 50.4957 201.516C22.6823 201.516 0.135116 178.969 0.135116 151.155C0.135116 124.948 20.1529 103.417 45.7323 101.017L1.93659 66.9004ZM38.5224 117.154H44.6916V123.319H49.9813V117.154H56.1505V123.401C58.9767 123.564 61.6374 123.972 64.1324 124.623C67.4957 125.492 70.2001 126.923 72.2458 128.914C74.3261 130.876 75.3663 133.54 75.3663 136.905C75.3663 139.121 74.8462 141.098 73.806 142.836C72.8005 144.575 71.4483 146.005 69.7494 147.127C68.0851 148.22 66.2648 148.949 64.2885 149.314C66.0221 149.482 67.7037 149.889 69.3333 150.534C70.9976 151.151 72.4885 152.02 73.806 153.142C75.1583 154.235 76.2158 155.609 76.9786 157.264C77.776 158.89 78.1748 160.825 78.1748 163.068C78.1748 166.181 77.308 168.929 75.5743 171.313C73.8754 173.668 71.379 175.519 68.0851 176.865C64.8441 178.175 60.8658 178.834 56.1505 178.842V185.015H49.9813V178.842H44.6916V185.015H38.5224V178.842H34.1147V178.851H25.3016V172.682H29.7027V129.488H25.3016V123.319H29.7027H34.1147H38.5224V117.154ZM45.2533 168.789H52.3265C54.5455 168.789 56.3485 168.522 57.7354 167.99C59.1569 167.429 60.1971 166.644 60.8559 165.634C61.5147 164.597 61.8441 163.363 61.8441 161.933C61.8441 159.689 60.9772 158.049 59.2436 157.011C57.5447 155.946 55.1523 155.413 52.0664 155.413H45.2533V168.789ZM45.2533 145.57H51.5463C53.384 145.57 54.9096 145.304 56.1231 144.771C57.3713 144.238 58.3075 143.495 58.9316 142.542C59.5903 141.56 59.9197 140.439 59.9197 139.177C59.9197 136.905 59.1223 135.377 57.5273 134.592C55.9324 133.779 53.748 133.372 50.9742 133.372H45.2533V145.57Z" fill="#FFD600" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://kwork.ru/portfolio/9405890">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://kwork.ru/portfolio/9405890">link</a>
                     </div>
                 </div>
                 <div className="portfolio__item">
@@ -256,7 +256,7 @@ const Portfolio = ({ isPage }) => {
                                 <path d="M0.995211 70.2394L28.7683 1.25308C29.0731 0.495951 29.8074 0 30.6235 0H64.0409C65.4882 0 66.4563 1.48957 65.8686 2.81213L43.4045 53.3672C42.8385 54.641 43.7164 56.0886 45.1075 56.1755L65.9698 57.4784C67.4037 57.568 68.2782 59.095 67.63 60.377L40.4425 114.143C39.8015 115.411 40.6495 116.924 42.0654 117.039L61.7695 118.64C63.2072 118.756 64.0523 120.311 63.3687 121.581L23.7332 195.233C22.6096 197.321 19.4308 196.064 20.0389 193.772L34.3066 139.997C34.6256 138.795 33.7813 137.596 32.5418 137.491L7.9285 135.413C6.5868 135.3 5.73813 133.92 6.24228 132.671L28.2739 78.1103C28.7732 76.8736 27.9453 75.5039 26.6182 75.3713L2.65164 72.9764C1.32546 72.8438 0.49747 71.4757 0.995211 70.2394Z" fill="#F7AC16" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://calendar-storm.vercel.app/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://calendar-storm.vercel.app/">link</a>
                     </div>
                 </div>
                 <div className="portfolio__item">
@@ -425,7 +425,7 @@ const Portfolio = ({ isPage }) => {
                                 <path d="M0.682617 106.195L0.682617 75.004H8.48046L8.48046 106.195H0.682617Z" fill="#0F1B85" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://blbaudio.vercel.app/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://blbaudio.vercel.app/">link</a>
                     </div>
                 </div>
                 <div className="portfolio__item">
@@ -481,7 +481,7 @@ const Portfolio = ({ isPage }) => {
                                 <path d="M0.718803 19.7916C0.676726 26.981 4.56376 38.561 8.51243 45.9224C19.814 42.0466 33.194 27.6417 36.402 24.7313C39.6101 21.8208 42.8218 13.561 36.7651 9.93691C31.9197 7.03764 24.4984 11.6354 21.3934 14.2966C19.2984 9.92753 13.9026 0.977872 9.07891 0.132084C3.04923 -0.92515 0.771814 10.7341 0.718803 19.7916Z" fill="#7F0B0C" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://whosemivan.github.io/blog-react/#/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://whosemivan.github.io/blog-react/#/">link</a>
                     </div>
                 </div>
 
@@ -534,7 +534,7 @@ const Portfolio = ({ isPage }) => {
                                 </div>
                             </div>
                         </div>
-                        <a className="portfolio__item-link" href="https://github.com/whosemivan/testingApp">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://github.com/whosemivan/testingApp">link</a>
                     </div>
                 </div>
 
@@ -593,7 +593,7 @@ const Portfolio = ({ isPage }) => {
                                 <path d="M22.0894 10.7891C22.0114 11.2459 21.6713 12.3488 20.9346 13.1059C20.1979 13.863 18.9366 14.0039 18.398 13.9796" stroke="#CAFAF2" strokeWidth="2" strokeLinecap="round" />
                             </svg>
                         </div>
-                        <a className="portfolio__item-link" href="https://whosemivan.github.io/eco-tubes/">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://whosemivan.github.io/eco-tubes/">link</a>
                     </div>
                 </div>
                 {
@@ -632,7 +632,7 @@ const Portfolio = ({ isPage }) => {
                                             <img src="img/cat-energy-mobile.jpg" alt="cat energy" />
                                         </picture>
                                     </div>
-                                    <a className="portfolio__item-link" href="https://whosemivan.github.io/cat-energy/">link</a>
+                                    <a target="_blank" className="portfolio__item-link" href="https://whosemivan.github.io/cat-energy/">link</a>
                                 </div>
                             </div>
 
@@ -666,7 +666,7 @@ const Portfolio = ({ isPage }) => {
                                             <img src="img/technomart-mobile.jpg" alt="technomart" />
                                         </picture>
                                     </div>
-                                    <a className="portfolio__item-link" href="https://whosemivan.github.io/technomart/">link</a>
+                                    <a target="_blank" className="portfolio__item-link" href="https://whosemivan.github.io/technomart/">link</a>
                                 </div>
                             </div>
 
@@ -700,7 +700,7 @@ const Portfolio = ({ isPage }) => {
                                             <img src="img/keksobooking-mobile.jpg" alt="keksobooking" />
                                         </picture>
                                     </div>
-                                    <a className="portfolio__item-link" href="https://github.com/whosemivan/keksobooking">link</a>
+                                    <a target="_blank" className="portfolio__item-link" href="https://github.com/whosemivan/keksobooking">link</a>
                                 </div>
                             </div>
 
@@ -734,7 +734,7 @@ const Portfolio = ({ isPage }) => {
                                             <img src="img/cinema-mobile.jpg" alt="wtw project" />
                                         </picture>
                                     </div>
-                                    <a className="portfolio__item-link" href="https://github.com/whosemivan/1087549-what-to-watch-6">link</a>
+                                    <a target="_blank" className="portfolio__item-link" href="https://github.com/whosemivan/1087549-what-to-watch-6">link</a>
                                 </div>
                             </div>
                         </>
