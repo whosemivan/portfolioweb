@@ -34,6 +34,9 @@ const Skills = () => {
                     git
                 </div>
                 <div className="skills__item">
+                    vite
+                </div>
+                <div className="skills__item">
                     scss/less
                 </div>
                 <div className="skills__item">
