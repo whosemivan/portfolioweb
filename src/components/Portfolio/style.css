@@ -165,27 +165,44 @@
     background-image: url("../../../public/img/tech-icons/webpack-icon.svg");
 }
 
+.portfolio__item-tools-item--next {
+    background-image: url("../../../public/img/next-js.svg");
+}
+
 .portfolio__item-picture {
     width: 280px;
     height: 150px;
-    background-color: #54aece;
     position: relative;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__item:first-child .portfolio__item-picture {
+    background-color: #F1F1F1;
 }
 
 .portfolio__item:nth-child(2) .portfolio__item-picture {
-    background-color: #fff6ef;
-    position: relative;
+    background-color: #353535;
 }
 
 .portfolio__item:nth-child(3) .portfolio__item-picture {
+    background-color: #54aece;
+}
+
+.portfolio__item:nth-child(4) .portfolio__item-picture {
+    background-color: #fff6ef;
+}
+
+.portfolio__item:nth-child(5) .portfolio__item-picture {
     background-color: #4D34C1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio__item:nth-child(4) .portfolio__item-picture {
+.portfolio__item:nth-child(6) .portfolio__item-picture {
     background-color: #57B7EB;
 }
 
@@ -201,6 +218,13 @@
     left: 140px;
 }
 
+.portfolio__item-icon--crypto {
+    width: 40px;
+}
+
+.portfolio__item-icon--modern {
+    width: 90px;
+}
 
 .portfolio__item-link {
     font-size: 20px;
@@ -472,20 +496,28 @@
         left: 330px;
     }
 
+    .portfolio__item-icon--crypto {
+        width: 80px;
+    }
+
+    .portfolio__item-icon--modern {
+        width: 140px;
+    }
+
     .portfolio__item-link {
-        font-size: 30px;
-        line-height: 38px;
-        position: absolute;
-        right: 21px;
-        top: 353px;
+        font-size: 20px;
     }
 
     .portfolio__item-link::after {
-        bottom: 13px;
+        bottom: 8px;
     }
 
     .portfolio__item {
         position: relative;
+    }
+
+    .portfolio__item-picture {
+        margin-bottom: 10px;
     }
 
     .portfolio__decorate-orbit {
@@ -560,14 +592,6 @@
         height: 134px;
     }
 
-    .portfolio__item:nth-child(2) .portfolio__item-link {
-        top: 317px;
-    }
-
-    .portfolio__item:nth-child(3) .portfolio__item-link {
-        top: 250px;
-    }
-
     .portfolio__item-icon--tube:first-child {
         width: 62px;
         height: 87px;
@@ -596,22 +620,6 @@
         left: 380px;
     }
 
-    .portfolio__item:nth-child(4) .portfolio__item-link,
-    .portfolio__item:nth-child(5) .portfolio__item-link {
-        top: 164px;
-    }
-
-    .portfolio__item:nth-child(6) .portfolio__item-link {
-        top: 141px;
-    }
-
-    .portfolio__item:nth-child(7) .portfolio__item-link {
-        top: 187px;
-    }
-
-    .portfolio__item:last-child .portfolio__item-link {
-        top: 141px;
-    }
 
     .portfolio__btn {
         font-size: 30px;
@@ -697,6 +705,7 @@
         position: relative;
         top: 0;
         left: 0;
+        display: inline;
     }
 
     .portfolio__item:nth-child(2) .portfolio__item-link,
@@ -736,6 +745,10 @@
     .portfolio__item-icon--storm {
         width: 45px;
         left: 66%;
+    }
+
+    .portfolio__item-icon--crypto {
+        width: 80px;
     }
 
     @keyframes portfolioAnimation {
@@ -931,5 +944,13 @@
 
     .portfolio__item:nth-child(3) .portfolio__item-tools {
         bottom: 70px;
+    }
+
+    .portfolio__item-icon--crypto {
+        width: 90px;
+    }
+
+    .portfolio__item-icon--modern {
+        width: 230px;
     }
 }

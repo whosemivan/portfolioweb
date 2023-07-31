@@ -10,6 +10,175 @@ const Portfolio = ({ isPage }) => {
             <div className="portfolio__wrapper">
                 <div className="portfolio__item">
                     <div className="portfolio__description-wrapper">
+                        <h3 className="portfolio__item-title">modernbanc - web app</h3>
+                        <span className="portfolio__item-date">may 2023 - may 2023</span>
+                        <p className="portfolio__item-description">i created a web app - modernbanc. i used next js and scss modules.</p>
+                        <ul className="portfolio__item-tools">
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--next">
+                                <span className="visually-hidden">nextjs</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--sass">
+                                <span className="visually-hidden">scss modules</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--git">
+                                <span className="visually-hidden">git</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--figma">
+                                <span className="visually-hidden">figma</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="portfolio__image-wrapper">
+                        <div className="portfolio__item-picture">
+                            <svg className="portfolio__item-icon portfolio__item-icon--modern" width="140" height="133" viewBox="0 0 140 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2005_27)">
+                                    <path d="M71.0497 106.553C11.9592 2.42058 10.9368 -27.1565 140.045 37.5576" stroke="url(#paint0_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M64.2967 105.15C12.8911 8.70212 13.3094 -19.4343 133.292 36.1543" stroke="url(#paint1_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M57.522 103.746C13.8013 14.9836 15.6603 -11.712 126.517 34.7509" stroke="url(#paint2_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M50.7691 102.343C14.7332 21.2652 18.0329 -3.98982 119.764 33.3476" stroke="url(#paint3_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M44.0051 100.939C15.6542 27.5467 20.3945 3.73241 113 31.9442" stroke="url(#paint4_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M37.2411 99.538C16.5751 33.8302 22.7562 11.4566 106.236 30.5428" stroke="url(#paint5_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M30.4772 98.1347C17.4961 40.1117 25.1178 19.1788 99.4724 29.1394" stroke="url(#paint6_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M23.7132 96.7313C18.417 46.3933 27.4794 26.901 92.7085 27.7361" stroke="url(#paint7_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M16.9603 95.328C19.3489 52.6748 29.852 34.6233 85.9555 26.3327" stroke="url(#paint8_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M10.1856 93.9246C20.2591 58.9563 32.2029 42.3455 79.1808 24.9294" stroke="url(#paint9_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                </g>
+                                <g clip-path="url(#clip1_2005_27)">
+                                    <path d="M80.051 29.6967C139.141 133.829 138.266 159.61 9.15781 94.8961" stroke="url(#paint10_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M85.6276 28.9162C137.033 125.364 135.897 151.889 15.9144 96.3002" stroke="url(#paint11_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M92.2139 29.6971C135.935 118.46 133.533 144.166 22.6758 97.7028" stroke="url(#paint12_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M98.7 30.2559C134.736 111.333 131.18 136.444 29.4486 99.1066" stroke="url(#paint13_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M105.193 31.5137C133.544 104.906 128.804 128.721 36.1982 100.509" stroke="url(#paint14_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M111.957 32.9171C132.623 98.6249 126.442 120.998 42.9621 101.912" stroke="url(#paint15_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M118.721 34.3204C131.702 92.3433 124.081 113.276 49.7261 103.316" stroke="url(#paint16_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M125.485 35.7238C130.781 86.0618 121.719 105.554 56.4898 104.719" stroke="url(#paint17_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M132.249 37.1271C129.86 79.7803 119.357 97.8318 63.2537 106.122" stroke="url(#paint18_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                    <path d="M139.002 38.5285C128.928 73.4968 116.985 90.1076 70.0067 107.524" stroke="url(#paint19_linear_2005_27)" stroke-width="1.33971" stroke-linecap="round" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2005_27" x1="51.9535" y1="58.7194" x2="92.9882" y2="17.6848" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_2005_27" x1="48.3517" y1="60.4673" x2="89.3864" y2="19.4326" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_2005_27" x1="44.7282" y1="62.2151" x2="85.7629" y2="21.1804" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_2005_27" x1="41.1264" y1="63.9629" x2="82.1611" y2="22.9283" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint4_linear_2005_27" x1="37.5137" y1="65.7108" x2="78.5484" y2="24.6761" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint5_linear_2005_27" x1="33.9009" y1="67.4606" x2="74.9356" y2="26.4259" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint6_linear_2005_27" x1="30.2882" y1="69.2084" x2="71.3229" y2="28.1737" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint7_linear_2005_27" x1="26.6754" y1="70.9563" x2="67.7101" y2="29.9216" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint8_linear_2005_27" x1="23.0736" y1="72.7041" x2="64.1083" y2="31.6694" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint9_linear_2005_27" x1="19.4501" y1="74.4519" x2="60.4848" y2="33.4173" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint10_linear_2005_27" x1="97.2493" y1="73.7342" x2="56.2146" y2="114.769" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint11_linear_2005_27" x1="100.855" y1="71.9872" x2="59.8199" y2="113.022" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint12_linear_2005_27" x1="104.465" y1="70.2387" x2="63.4302" y2="111.273" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint13_linear_2005_27" x1="108.086" y1="68.4912" x2="67.0518" y2="109.526" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint14_linear_2005_27" x1="111.685" y1="66.7423" x2="70.6501" y2="107.777" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint15_linear_2005_27" x1="115.298" y1="64.9945" x2="74.2629" y2="106.029" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint16_linear_2005_27" x1="118.91" y1="63.2467" x2="77.8756" y2="104.281" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint17_linear_2005_27" x1="122.523" y1="61.4988" x2="81.4881" y2="102.534" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint18_linear_2005_27" x1="126.136" y1="59.751" x2="85.1009" y2="100.786" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <linearGradient id="paint19_linear_2005_27" x1="129.737" y1="58.0012" x2="88.7027" y2="99.0359" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2005_27">
+                                        <rect width="140" height="106.507" fill="white" />
+                                    </clipPath>
+                                    <clipPath id="clip1_2005_27">
+                                        <rect width="130.845" height="105.614" fill="white" transform="matrix(-1 0 0 -1 140 132.408)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <a className="portfolio__item-link" href="https://modernbanc.com/">link</a>
+                    </div>
+                </div>
+                <div className="portfolio__item">
+                    <div className="portfolio__description-wrapper">
+                        <h3 className="portfolio__item-title">crypto weteran - landing page</h3>
+                        <span className="portfolio__item-date">mar 2023 - mar 2023</span>
+                        <p className="portfolio__item-description">i created a landing page - crypto weteran. i used next js and scss modules.</p>
+                        <ul className="portfolio__item-tools">
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--next">
+                                <span className="visually-hidden">nextjs</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--sass">
+                                <span className="visually-hidden">scss modules</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--git">
+                                <span className="visually-hidden">git</span>
+                            </li>
+                            <li className="portfolio__item-tools-item portfolio__item-tools-item--figma">
+                                <span className="visually-hidden">figma</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="portfolio__image-wrapper">
+                        <div className="portfolio__item-picture">
+                            <svg className="portfolio__item-icon portfolio__item-icon--crypto" width="101" height="202" viewBox="0 0 101 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M50.7866 63.6803L0 24.1177V1.51003C0 0.25286 1.44847 -0.451796 2.43757 0.324195L50.7939 38.2618L98.5557 0.3519C99.5435 -0.432139 101 0.271315 101 1.53245V24.5756L50.8566 63.6372L50.8493 63.6315L50.7866 63.6803ZM1.93659 66.9004C0.714566 65.9484 0 64.486 0 62.9369V39.9676L50.7935 79.5356L101 40.4248V63.3942C101 64.9433 100.285 66.4057 99.0634 67.3576L55.7875 101.07C81.1136 103.714 100.856 125.129 100.856 151.155C100.856 178.969 78.3091 201.516 50.4957 201.516C22.6823 201.516 0.135116 178.969 0.135116 151.155C0.135116 124.948 20.1529 103.417 45.7323 101.017L1.93659 66.9004ZM38.5224 117.154H44.6916V123.319H49.9813V117.154H56.1505V123.401C58.9767 123.564 61.6374 123.972 64.1324 124.623C67.4957 125.492 70.2001 126.923 72.2458 128.914C74.3261 130.876 75.3663 133.54 75.3663 136.905C75.3663 139.121 74.8462 141.098 73.806 142.836C72.8005 144.575 71.4483 146.005 69.7494 147.127C68.0851 148.22 66.2648 148.949 64.2885 149.314C66.0221 149.482 67.7037 149.889 69.3333 150.534C70.9976 151.151 72.4885 152.02 73.806 153.142C75.1583 154.235 76.2158 155.609 76.9786 157.264C77.776 158.89 78.1748 160.825 78.1748 163.068C78.1748 166.181 77.308 168.929 75.5743 171.313C73.8754 173.668 71.379 175.519 68.0851 176.865C64.8441 178.175 60.8658 178.834 56.1505 178.842V185.015H49.9813V178.842H44.6916V185.015H38.5224V178.842H34.1147V178.851H25.3016V172.682H29.7027V129.488H25.3016V123.319H29.7027H34.1147H38.5224V117.154ZM45.2533 168.789H52.3265C54.5455 168.789 56.3485 168.522 57.7354 167.99C59.1569 167.429 60.1971 166.644 60.8559 165.634C61.5147 164.597 61.8441 163.363 61.8441 161.933C61.8441 159.689 60.9772 158.049 59.2436 157.011C57.5447 155.946 55.1523 155.413 52.0664 155.413H45.2533V168.789ZM45.2533 145.57H51.5463C53.384 145.57 54.9096 145.304 56.1231 144.771C57.3713 144.238 58.3075 143.495 58.9316 142.542C59.5903 141.56 59.9197 140.439 59.9197 139.177C59.9197 136.905 59.1223 135.377 57.5273 134.592C55.9324 133.779 53.748 133.372 50.9742 133.372H45.2533V145.57Z" fill="#FFD600" />
+                            </svg>
+                        </div>
+                        <a className="portfolio__item-link" href="https://kwork.ru/portfolio/9405890">link</a>
+                    </div>
+                </div>
+                <div className="portfolio__item">
+                    <div className="portfolio__description-wrapper">
                         <h3 className="portfolio__item-title">calendar storm</h3>
                         <span className="portfolio__item-date">nov 2022 - dec 2022</span>
                         <p className="portfolio__item-description">i created a react app - calendarStorm. it helps you create really flexible calendars and plan your deals. you can create some timetables and share with someone, for example! created by the team. &nbsp;<span>functionality:</span></p>

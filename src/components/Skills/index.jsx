@@ -7,25 +7,31 @@ const Skills = () => {
             <h2 className="skills__title">skills</h2>
             <div className="skills__wrapper">
                 <div className="skills__item">
+                    react
+                </div>
+                <div className="skills__item">
+                    nextjs
+                </div>
+                <div className="skills__item">
+                    scss modules
+                </div>
+                <div className="skills__item">
+                    typescript
+                </div>
+                <div className="skills__item">
+                    javascript
+                </div>
+                <div className="skills__item">
                     html5
                 </div>
                 <div className="skills__item">
                     css3
                 </div>
                 <div className="skills__item">
-                    javascript
-                </div>
-                <div className="skills__item">
-                    react
-                </div>
-                <div className="skills__item">
                     react native
                 </div>
                 <div className="skills__item">
                     git
-                </div>
-                <div className="skills__item">
-                    scss/less
                 </div>
                 <div className="skills__item">
                     scss/less
