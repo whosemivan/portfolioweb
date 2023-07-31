@@ -196,17 +196,21 @@
 }
 
 .portfolio__item:nth-child(5) .portfolio__item-picture {
-    background-color: #fff6ef;
+    background-color: #0c0c0c;
 }
 
 .portfolio__item:nth-child(6) .portfolio__item-picture {
+    background-color: #fff6ef;
+}
+
+.portfolio__item:nth-child(7) .portfolio__item-picture {
     background-color: #4D34C1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio__item:nth-child(7) .portfolio__item-picture {
+.portfolio__item:nth-child(8) .portfolio__item-picture {
     background-color: #57B7EB;
 }
 
@@ -231,6 +235,10 @@
 }
 
 .portfolio__item-icon--demuzo {
+    width: 100px;
+}
+
+.portfolio__item-icon--blb {
     width: 100px;
 }
 
@@ -510,6 +518,10 @@
 
     .portfolio__item-icon--modern {
         width: 140px;
+    }
+
+    .portfolio__item-icon--blb {
+        width: 170px;
     }
 
     .portfolio__item-icon--demuzo {
@@ -967,6 +979,10 @@
     }
 
     .portfolio__item-icon--demuzo {
+        width: 200px;
+    }
+
+    .portfolio__item-icon--blb {
         width: 200px;
     }
 }
