@@ -19,6 +19,12 @@ const Skills = () => {
                     typescript
                 </div>
                 <div className="skills__item">
+                    redux
+                </div>
+                <div className="skills__item">
+                    rest api
+                </div>
+                <div className="skills__item">
                     javascript
                 </div>
                 <div className="skills__item">
@@ -46,7 +52,7 @@ const Skills = () => {
                     ux/ui
                 </div>
                 <div className="skills__item">
-                    figma
+                    figma/photoshop
                 </div>
                 <div className="skills__item">
                     bem

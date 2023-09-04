@@ -93,124 +93,51 @@
     left: 0;
 }
 
-.portfolio__item-tools {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    margin-bottom: 30px;
-}
-
-.portfolio__item-tools-item {
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
-}
-
-.portfolio__item-tools-item:last-child {
-    margin-right: 0;
-}
-
-.portfolio__item-tools-item--react {
-    background-image: url("../../../public/img/tech-icons/react-icon.svg");
-}
-
-.portfolio__item-tools-item--css {
-    background-image: url("../../../public/img/tech-icons/css-icon.svg");
-}
-
-.portfolio__item-tools-item--git {
-    background-image: url("../../../public/img/tech-icons/git-icon.svg");
-}
-
-.portfolio__item-tools-item--figma {
-    background-image: url("../../../public/img/tech-icons/figma-icon.svg");
-}
-
-.portfolio__item-tools-item--swagger {
-    background-image: url("../../../public/img/tech-icons/swagger-icon.svg");
-}
-
-.portfolio__item-tools-item--html {
-    background-image: url("../../../public/img/tech-icons/html-icon.svg");
-}
-
-.portfolio__item-tools-item--sass {
-    background-image: url("../../../public/img/tech-icons/sass-icon.svg");
-}
-
-.portfolio__item-tools-item--js {
-    background-image: url("../../../public/img/tech-icons/js-icon.svg");
-}
-
-.portfolio__item-tools-item--gulp {
-    background-image: url("../../../public/img/tech-icons/gulp-icon.svg");
-}
-
-.portfolio__item-tools-item--less {
-    background-image: url("../../../public/img/tech-icons/less-icon.svg");
-}
-
-.portfolio__item-tools-item--psd {
-    background-image: url("../../../public/img/tech-icons/psd-icon.svg");
-}
-
-.portfolio__item-tools-item--redux {
-    background-image: url("../../../public/img/tech-icons/redux-icon.svg");
-}
-
-.portfolio__item-tools-item--webpack {
-    background-image: url("../../../public/img/tech-icons/webpack-icon.svg");
-}
-
-.portfolio__item-tools-item--next {
-    background-image: url("../../../public/img/next-js.svg");
-}
-
 .portfolio__item-picture {
     width: 280px;
     height: 150px;
     position: relative;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .portfolio__item:first-child .portfolio__item-picture {
-    background-color: #ececec;
+    background-color: #131313;
 }
 
 .portfolio__item:nth-child(2) .portfolio__item-picture {
-    background-color: #F1F1F1;
+    background-color: #ececec;
 }
 
 .portfolio__item:nth-child(3) .portfolio__item-picture {
-    background-color: #353535;
+    background-color: #F1F1F1;
 }
 
 .portfolio__item:nth-child(4) .portfolio__item-picture {
-    background-color: #54aece;
+    background-color: #353535;
 }
 
 .portfolio__item:nth-child(5) .portfolio__item-picture {
-    background-color: #0c0c0c;
+    background-color: #54aece;
 }
 
 .portfolio__item:nth-child(6) .portfolio__item-picture {
-    background-color: #fff6ef;
+    background-color: #0c0c0c;
 }
 
 .portfolio__item:nth-child(7) .portfolio__item-picture {
+    background-color: #fff6ef;
+}
+
+.portfolio__item:nth-child(8) .portfolio__item-picture {
     background-color: #4D34C1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio__item:nth-child(8) .portfolio__item-picture {
+.portfolio__item:nth-child(9) .portfolio__item-picture {
     background-color: #57B7EB;
 }
 
@@ -219,6 +146,10 @@
     top: 24px;
     left: 75px;
     animation: portfolioAnimation linear 5s infinite;
+}
+
+.portfolio__logo-image {
+    width: 80px;
 }
 
 .portfolio__item-icon--heart:last-child {
@@ -243,6 +174,8 @@
 }
 
 .portfolio__item-link {
+    display: block;
+    margin-bottom: 20px;
     font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.02em;
@@ -265,8 +198,8 @@
 .portfolio__item-link::after {
     content: "";
     position: absolute;
-    bottom: 7px;
-    right: -21px;
+    bottom: 8px;
+    left: 40px;
     background-image: url("../../../public/img/link-icon.svg");
     width: 16px;
     height: 8px;
@@ -540,10 +473,6 @@
         position: relative;
     }
 
-    .portfolio__item-picture {
-        margin-bottom: 10px;
-    }
-
     .portfolio__decorate-orbit {
         width: 88px;
         height: 88px;
@@ -657,6 +586,10 @@
         width: 60px;
     }
 
+    .portfolio__logo-image {
+        width: 150px;
+    }
+
     @keyframes portfolioAnimation {
         0% {
             transform: translateY(0);
@@ -677,6 +610,11 @@
         width: 880px;
     }
 
+    .portfolio__description-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
     .portfolio__title {
         font-size: 50px;
         line-height: 64px;
@@ -695,7 +633,6 @@
     .portfolio__item-picture {
         width: 400px;
         height: 275px;
-        margin-bottom: 20px;
     }
 
 
@@ -726,10 +663,8 @@
     }
 
     .portfolio__item-link {
-        position: relative;
-        top: 0;
-        left: 0;
-        display: inline;
+        margin-top: auto;
+        margin-bottom: 0;
     }
 
     .portfolio__item:nth-child(2) .portfolio__item-link,
@@ -747,21 +682,6 @@
         margin-right: 140px;
     }
 
-    .portfolio__item-tools {
-        margin-bottom: 0;
-        position: absolute;
-        bottom: 70px;
-    }
-
-    .portfolio__item:first-child .portfolio__item-tools {
-        bottom: -40px;
-    }
-
-    .portfolio__item:nth-child(2) .portfolio__item-tools,
-    .portfolio__item:nth-child(3) .portfolio__item-tools {
-        bottom: -20px;
-    }
-
     .portfolio__item-icon--calendar {
         width: 100px;
         left: 34%;
@@ -773,6 +693,10 @@
 
     .portfolio__item-icon--crypto {
         width: 80px;
+    }
+
+    .portfolio__logo-image {
+        width: 120px;
     }
 
     @keyframes portfolioAnimation {
@@ -825,7 +749,7 @@
         background-image: url("../../../public/img/link-icon-desk.svg");
         width: 24px;
         height: 12px;
-        right: -30px;
+        left: 80px;
         bottom: 17px;
     }
 
@@ -846,12 +770,6 @@
         left: 378px;
         width: 121px;
         height: 134px;
-    }
-
-
-    .portfolio__item:first-child .portfolio__item-tools,
-    .portfolio__item:nth-child(2) .portfolio__item-tools {
-        bottom: 70px;
     }
 
     /* eye */
@@ -966,10 +884,6 @@
         top: 62%;
     }
 
-    .portfolio__item:nth-child(3) .portfolio__item-tools {
-        bottom: 70px;
-    }
-
     .portfolio__item-icon--crypto {
         width: 90px;
     }
@@ -984,5 +898,9 @@
 
     .portfolio__item-icon--blb {
         width: 200px;
+    }
+
+    .portfolio__logo-image {
+        width: 150px;
     }
 }

@@ -50,7 +50,14 @@
     transition: opacity 0.4s ease;
 }
 
-.experience__link[href^="https://"]:hover {
+.experience__link-text {
+    color: #022702;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.experience__link[href^="https://"]:hover,
+.experience__link-text:hover {
     opacity: 0.7;
 }
 
@@ -126,6 +133,7 @@
     .experience__wrapper {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         width: 100%;
     }
 
