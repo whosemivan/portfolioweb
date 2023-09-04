@@ -173,7 +173,7 @@ const Portfolio = ({ isPage }) => {
                         <h3 className="portfolio__item-title">crypto weteran - landing page</h3>
                         <span className="portfolio__item-date">mar 2023 - mar 2023</span>
                         <p className="portfolio__item-description">i created a landing page - crypto weteran. i used next js and scss modules.</p>
-                        <a target="_blank" className="portfolio__item-link" href="https://kwork.ru/portfolio/9405890">link</a>
+                        <a target="_blank" className="portfolio__item-link" href="https://nextmarkup.vercel.app/">link</a>
                     </div>
                     <div className="portfolio__image-wrapper">
                         <div className="portfolio__item-picture">
