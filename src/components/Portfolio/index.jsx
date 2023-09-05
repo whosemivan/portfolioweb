@@ -78,84 +78,84 @@ const Portfolio = ({ isPage }) => {
                                 </g>
                                 <defs>
                                     <linearGradient id="paint0_linear_2005_27" x1="51.9535" y1="58.7194" x2="92.9882" y2="17.6848" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_2005_27" x1="48.3517" y1="60.4673" x2="89.3864" y2="19.4326" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_2005_27" x1="44.7282" y1="62.2151" x2="85.7629" y2="21.1804" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint3_linear_2005_27" x1="41.1264" y1="63.9629" x2="82.1611" y2="22.9283" gradientUnits="userSpaceOnUse">
                                         <stop stopColor="#DEDEDE" />
                                         <stop offset="1" stopColor="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint4_linear_2005_27" x1="37.5137" y1="65.7108" x2="78.5484" y2="24.6761" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint5_linear_2005_27" x1="33.9009" y1="67.4606" x2="74.9356" y2="26.4259" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint6_linear_2005_27" x1="30.2882" y1="69.2084" x2="71.3229" y2="28.1737" gradientUnits="userSpaceOnUse">
-                                        <stop stopColor="#DEDEDE" />
-                                        <stop offset="1" stopColor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint7_linear_2005_27" x1="26.6754" y1="70.9563" x2="67.7101" y2="29.9216" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint8_linear_2005_27" x1="23.0736" y1="72.7041" x2="64.1083" y2="31.6694" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint9_linear_2005_27" x1="19.4501" y1="74.4519" x2="60.4848" y2="33.4173" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint10_linear_2005_27" x1="97.2493" y1="73.7342" x2="56.2146" y2="114.769" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint11_linear_2005_27" x1="100.855" y1="71.9872" x2="59.8199" y2="113.022" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint12_linear_2005_27" x1="104.465" y1="70.2387" x2="63.4302" y2="111.273" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint13_linear_2005_27" x1="108.086" y1="68.4912" x2="67.0518" y2="109.526" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint14_linear_2005_27" x1="111.685" y1="66.7423" x2="70.6501" y2="107.777" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint15_linear_2005_27" x1="115.298" y1="64.9945" x2="74.2629" y2="106.029" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint16_linear_2005_27" x1="118.91" y1="63.2467" x2="77.8756" y2="104.281" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint17_linear_2005_27" x1="122.523" y1="61.4988" x2="81.4881" y2="102.534" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint18_linear_2005_27" x1="126.136" y1="59.751" x2="85.1009" y2="100.786" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <linearGradient id="paint19_linear_2005_27" x1="129.737" y1="58.0012" x2="88.7027" y2="99.0359" gradientUnits="userSpaceOnUse">
-                                        <stop stopСolor="#DEDEDE" />
-                                        <stop offset="1" stopСolor="#BABABA" />
+                                        <stop stop-color="#DEDEDE" />
+                                        <stop offset="1" stop-color="#BABABA" />
                                     </linearGradient>
                                     <clipPath id="clip0_2005_27">
                                         <rect width="140" height="106.507" fill="white" />
