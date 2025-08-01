@@ -24,7 +24,7 @@ const AboutMe = () => {
                         <source srcSet="img/new_me.jpg" media="(max-width: 1023px)" />
                         <source srcSet="img/new_me.jpg" media="(max-width: 1439px)" />
                         <source srcSet="img/new_me.jpg" media="(min-width: 1439px)" />
-                        <img className="about__image" src="img/new_me.jpg" alt="me !!" />
+                        <img className="about__image" src="img/new_me.jpg" alt="me !!" loading="lazy" />
                     </picture>
                 </div>
             </div>

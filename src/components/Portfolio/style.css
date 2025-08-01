@@ -315,6 +315,7 @@
     background-size: 200% 100%;
     background-position: 100%;
     transition: background-position 0.4s ease;
+    text-decoration: none;
 }
 
 .portfolio__btn::after {

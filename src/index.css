@@ -6,6 +6,7 @@ body {
   min-width: 320px;
   position: relative;
   color: #f8f8f8;
+  cursor: url('/public/cursor.svg') 16 16, auto;
 }
 
 .visually-hidden {
