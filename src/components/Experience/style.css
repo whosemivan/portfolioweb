@@ -42,7 +42,7 @@
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #022702;
+    color: #f8f8f8;
     position: relative;
     margin-bottom: 10px;
     text-decoration: none;
@@ -51,7 +51,7 @@
 }
 
 .experience__link-text {
-    color: #022702;
+    color: #f8f8f8;
     opacity: 1;
     transition: opacity 0.4s ease;
 }
@@ -76,7 +76,7 @@
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgba(2, 39, 2, 0.8);
+    opacity: 0.6;
     margin-bottom: 20px;
 }
 

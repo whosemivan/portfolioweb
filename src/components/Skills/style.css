@@ -28,9 +28,10 @@
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.02em;
-    background: #B5EEFF;
-    border: 1px solid #022702;
+    background: #f8f8f8;
+    border: 1px solid #121212;
     padding: 8px 15px;
+    color: #121212;
 }
 
 @media (min-width: 768px) {

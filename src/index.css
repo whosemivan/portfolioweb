@@ -2,21 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lora', 'Tahoma', serif;
-  background-color: #92C3BF;
+  background-color: #121212;
   min-width: 320px;
   position: relative;
-  color: #022702;
-}
-
-body::after {
-  content: "";
-  height: 100%;
-  width: 40%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #b5eeff;
-  z-index: -1;
+  color: #f8f8f8;
 }
 
 .visually-hidden {
@@ -30,7 +19,7 @@ body::after {
 .code {
   margin-bottom: 100px;
   position: relative;
-  width: 226.24px;
+  width: 253px;
   border-right: 2px solid #2E6B75;
   white-space: nowrap;
   overflow: hidden;
@@ -38,7 +27,7 @@ body::after {
 
 .code--animate {
   animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 @keyframes typewriter {
@@ -47,7 +36,7 @@ body::after {
   }
 
   to {
-    width: 226.24px;
+    width: 253px;
   }
 }
 
@@ -72,23 +61,13 @@ body::after {
     }
 
     to {
-      width: 280.45px;
+      width: 309px;
     }
   }
 }
 
 @media (min-width: 1024px) {
-  body::after {
-    width: 46%;
-  }
-
   .code {
     margin-bottom: 130px;
-  }
-}
-
-@media (min-width: 1440px) {
-  body::after {
-    width: 45%;
   }
 }

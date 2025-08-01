@@ -9,51 +9,9 @@
     margin-bottom: 100px;
 }
 
-.contact-me::after {
-    content: "";
-    width: 73px;
-    height: 72px;
-    position: absolute;
-    background-image: url("../../../public/img/contact-icon.svg");
-    background-repeat: no-repeat;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: ufoAnimation linear 4s infinite;
-
-}
-
-@keyframes ufoAnimation {
-    0% {
-      transform: translateX(-50%) translateY(0);
-    }
-  
-    50% {
-      transform: translateX(-50%) translateY(10px);
-    }
-  
-    100% {
-      transform: translateX(-50%) translateY(0);
-    }
-  }
-
-.contact-me__title {
-    font-size: 25px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin: 0;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
 
 .contact-me__link {
-    font-size: 25px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    color: #2F6B75;
     text-decoration: none;
-    text-align: center;
     position: relative;
     opacity: 1;
     transition: opacity 0.4s ease;
@@ -68,89 +26,27 @@
     opacity: 0.5;
 }
 
-.contact-me__link::after {
-    content: "";
-    height: 2px;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-    position: absolute;
-    background-color: #2F6B75;
-}
 
 @media (min-width: 768px) {
     .contact-me {
         width: 580px;
-        align-items: flex-end;
         min-height: 138px;
     }
 
-    .contact-me__title {
-        font-size: 43px;
-        line-height: 59px;
+    .contact-me__icon {
+        width: 580px;
+        height: 410px;
     }
-
-    .contact-me__link {
-        font-size: 43px;
-        line-height: 59px;
-        text-align: right;
-        width: 445px;
-    }
-
-    .contact-me::after {
-        left: 61px;
-        bottom: -7px;
-        transform: none;
-    }
-
 }
 
 @media (min-width: 1024px) {
     .contact-me {
         width: 661px;
     }
-
-    .contact-me__title,
-    .contact-me__link {
-        font-size: 50px;
-        line-height: 64px;
-    }
-
-    .contact-me__link {
-        width: 516px;
-    }
-
-    .contact-me::after {
-        left: 51px;
-    }
 }
 
 @media (min-width: 1440px) {
     .contact-me {
         width: 1269px;
-        align-items: flex-end;
-    }
-
-    .contact-me__title,
-    .contact-me__link {
-        font-size: 96px;
-        line-height: 123px;
-    }
-
-    .contact-me__link {
-        width: 991px;
-    }
-
-    .contact-me__link::after {
-        height: 3px;
-        bottom: -6px;
-    }
-
-    .contact-me::after {
-        background-image: url("../../../public/img/contact-icon-desc.svg");
-        width: 157px;
-        height: 137px;
-        left: 83px;
-        bottom: -11px;
     }
 }

@@ -1,3 +1,10 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 .footer__soc {
     margin: 0;
     padding: 0;
@@ -6,7 +13,6 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 .footer__link {
@@ -20,4 +26,12 @@
 
 .footer__link:active {
     opacity: 0.5;
+}
+
+.footer__email {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding-bottom: 80px;
 }

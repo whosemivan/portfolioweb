@@ -58,7 +58,7 @@ const Skills = () => {
                     bem
                 </div>
                 <div className="skills__item">
-                    english b1
+                    english
                 </div>
             </div>
         </section>

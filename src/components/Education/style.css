@@ -40,7 +40,7 @@
 }
 
 .education__link {
-    color: #022702;
+    color: #f8f8f8;
     text-decoration: none;
     position: relative;
     opacity: 1;
@@ -76,7 +76,7 @@
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgba(2, 39, 2, 0.8)
+    opacity: 0.6;
 }
 
 .education__certificates {
@@ -98,10 +98,10 @@
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.02em;
-    color: #022702;
+    color: #f8f8f8;
     text-decoration: none;
     position: relative;
-    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background: linear-gradient(to right, #bf8888, #bf8888 50%, #f8f8f8 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -126,8 +126,8 @@
     right: 0;
     bottom: -5px;
     height: 2px;
-    background-color: #022702;
-    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background-color: #f8f8f8;
+    background: linear-gradient(to right, #bf8888, #bf8888 50%, #f8f8f8 50%);
     background-size: 200% 100%;
     background-position: 100%;
     transition: background-position 0.4s ease;

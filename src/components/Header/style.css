@@ -18,7 +18,7 @@
 
 .header__overlay {
     position: fixed;
-    background-color: #2F6B75;
+    background-color: #121212;
     z-index: -2;
     top: -100vh;
     left: 0;
@@ -69,7 +69,7 @@
     display: block;
     width: 40px;
     height: 2px;
-    background: linear-gradient(to right, #2E6B75, #2E6B75 50%, #022702 50%);
+    background: #f8f8f8;
     background-size: 200% 100%;
     background-position: 100%;
     left: 0;
@@ -98,7 +98,7 @@
 .header__line-top.spin {
     top: 5px;
     transform: rotate(135deg);
-    background: linear-gradient(to right, #93C3BF, #93C3BF 50%, #022702 50%);
+    background: #f8f8f8;
     background-size: 200% 100%;
     background-position: 100%;
 }
@@ -106,7 +106,7 @@
 .header__line-bottom.spin {
     top: 5px;
     transform: rotate(225deg);
-    background: linear-gradient(to right, #93C3BF, #93C3BF 50%, #022702 50%);
+    background: #f8f8f8;
     background-size: 200% 100%;
     background-position: 100%;
 }
@@ -137,7 +137,7 @@
 
 .header__list-link {
     text-decoration: none;
-    color: #022702;
+    color: #f8f8f8;
     font-size: 30px;
     position: relative;
     top: 0;
@@ -146,7 +146,7 @@
 
 
 .header__list-link--active {
-    color: #93C3BF;
+    color: #ffe4a1;
     position: relative;
 }
 
@@ -157,7 +157,7 @@
     left: -10%;
     width: 120%;
     height: 100%;
-    background-color: #2F6B75;
+    background-color: #121212;
     margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@
             right: -100px;
             bottom: 0;
         }
-    
+
         to {
             right: 1250px;
             bottom: 1000px;
@@ -208,7 +208,7 @@
             right: -100px;
             bottom: 0;
         }
-    
+
         to {
             right: 1500px;
             bottom: 1000px;

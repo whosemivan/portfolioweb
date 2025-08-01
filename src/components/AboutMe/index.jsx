@@ -8,9 +8,15 @@ const AboutMe = () => {
                 <div className="about__block">
                     <h1 className="about__title">more about me</h1>
                     <p className="about__text">
-                        hi, i’m Ivan Semyonenko, a frontend developer at amoCRM. create frontend since 2020 !!
+                        {`Ivan Semyonenko
+                    creative frontend developer & web designer
+
+                    create web since 2020
+                    21 y/o
+                    based in moscow
+                    `}
                     </p>
-                    <code className="code code--animate about__code">{"// import React from 'react';"}</code>
+                    <code className="code code--animate about__code">{"// in love with web, design & ai"}</code>
                 </div>
                 <div className="about__image-block">
                     <picture>
