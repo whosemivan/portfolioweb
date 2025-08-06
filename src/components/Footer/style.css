@@ -28,10 +28,14 @@
     opacity: 0.5;
 }
 
-.footer__email {
+.footer__email,
+.footer__resume {
     font-size: 16px;
     line-height: 1.2;
     color: #f8f8f8;
     text-decoration: none;
+}
+
+.footer__resume {
     padding-bottom: 80px;
 }

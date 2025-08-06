@@ -30,6 +30,8 @@ const FirstScreen = () => {
                 muted
                 loop
                 playsInline
+                preload="auto"
+                poster="/poster.jpg"
                 className="first-screen__video"
             >
                 <source src="/forweb.mp4" type="video/mp4" />

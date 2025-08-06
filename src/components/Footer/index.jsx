@@ -60,6 +60,7 @@ const Footer = () => {
                 </li>
             </ul>
             <a style={{ color }} className="footer__email" href="mailto:alienba6y@gmail.com">alienba6y@gmail.com</a>
+            <a style={{ color }} className="footer__resume" href="/resume.pdf" download>download resume</a>
         </footer>
     );
 };
