@@ -9,6 +9,11 @@ body {
   cursor: url('/public/cursor.svg'), auto;
 }
 
+::selection {
+  background-color: #a06c28;
+  color: #0c0c0c;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
