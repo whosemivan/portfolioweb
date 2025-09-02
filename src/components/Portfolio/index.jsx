@@ -9,8 +9,21 @@ const Portfolio = ({ isPage }) => {
             <div className="portfolio__wrapper">
                 <div className="portfolio__item">
                     <div className="portfolio__description-wrapper">
+                        <h3 className="portfolio__item-title">litestat</h3>
+                        <p className="portfolio__item-description">I work as a frontend developer in the litestat team.</p>
+                        <a target="_blank" className="portfolio__item-link" href="https://litestat.io/">link</a>
+                    </div>
+                    <div className="portfolio__image-wrapper">
+                        <div className="portfolio__item-picture">
+                            <img className="portfolio__logo-image" src="/litestatLogo.svg" alt="Logo of litestat"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="portfolio__item">
+                    <div className="portfolio__description-wrapper">
                         <h3 className="portfolio__item-title">amoCRM</h3>
-                        <p className="portfolio__item-description">I work as a frontend developer in the integration development team at amoCRM / Kommo.</p>
+                        <p className="portfolio__item-description">I worked as a frontend developer in the integration
+                            development team at amoCRM / Kommo.</p>
                         <a target="_blank" className="portfolio__item-link" href="https://amocrm.ru">link</a>
                     </div>
                     <div className="portfolio__image-wrapper">

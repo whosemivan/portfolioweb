@@ -93,32 +93,33 @@
     align-items: center;
 }
 
-.portfolio__item:first-child .portfolio__item-picture {
+.portfolio__item:first-child .portfolio__item-picture,
+.portfolio__item:nth-child(2) .portfolio__item-picture{
     background-color: #ffffff;
 }
 
-
-.portfolio__item:first-child .portfolio__logo-image {
-    width: 250px;
-}
-
-.portfolio__item:nth-child(2) .portfolio__item-picture {
-    background-color: #191919;
+.portfolio__item:first-child .portfolio__logo-image,
+.portfolio__item:nth-child(2) .portfolio__logo-image {
+    width: 200px;
 }
 
 .portfolio__item:nth-child(3) .portfolio__item-picture {
-    background-color: #f1f1f1;
+    background-color: #191919;
 }
 
 .portfolio__item:nth-child(4) .portfolio__item-picture {
-    background-color: #54aece;
+    background-color: #f1f1f1;
 }
 
 .portfolio__item:nth-child(5) .portfolio__item-picture {
-    background-color: #0c0c0c;
+    background-color: #54aece;
 }
 
 .portfolio__item:nth-child(6) .portfolio__item-picture {
+    background-color: #0c0c0c;
+}
+
+.portfolio__item:nth-child(7) .portfolio__item-picture {
     background-color: #ececec;
 }
 
